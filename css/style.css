@@ -1,0 +1,1239 @@
+body{
+    font-family: cambria;
+}
+.nav-design{
+    background-image: linear-gradient(to right,#7246ac, #09b7d0);
+    position:fixed;
+    width:100%;
+    z-index: 99;
+    opacity: 0.9;
+}
+.logo-size{
+    /* border:1px solid black; */
+    width:70px;
+    height:25px;
+    margin-left: 60px;
+    margin-right:10px;
+}
+.logo-text{
+    /* border:1px solid black; */
+    color:#00c9df;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 3px 4px 5px rgb(5, 5, 5);
+}
+.logo-text:hover{
+    color:#401579;
+}
+/* .item-size{
+    border:1px solid black;
+} */
+.item-size ul li a{
+    /* border:1px solid black; */
+    color:#00c9df;
+    margin-left:25px;
+}
+.item-size ul li a:hover{
+    color:#7246ac;
+    border-bottom: 2px solid #7246ac;
+}
+.img-size{
+    height:550px;
+}
+.admis-box{
+    border-radius:15px;
+    margin-left:30px;
+    margin-top:30px;
+    width:1050px;
+    height:300px;
+    /* border:1px solid black; */
+    display: flex;
+    padding:25px;
+    background-image: linear-gradient(to top right,#7246ac, #09b7d0);
+    box-shadow: 3px 4px 5px black;
+}
+.admis-box:hover{
+    background-image: linear-gradient(to top left,#7246ac, #09b7d0);
+}
+.admis-title{
+    text-align: center;
+    margin-bottom: 25px;
+    color:#00c9df;
+}
+.admis-data{
+   font-size:14px;
+   text-align: justify;
+   color:#00c9df;
+}
+.admis-size{
+    width:480px;
+    height:250px;
+    /* border:1px solid black; */
+    float:right;
+} 
+/* .left-box{
+    border:1px solid black;
+}
+.right-box{
+    border:1px solid black;
+} */
+.course{
+    /* border:1px solid black; */
+    margin-top:30px;
+}
+.doller{
+    width:50px;
+    height:50px;
+    /* border:1px solid black; */
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom,#7246ac, #09b7d0);
+    margin-left:230px;
+    margin-top:-25px;
+    text-decoration: none;
+}
+.doller-size{
+    margin:10px;
+    color:gold;
+}
+.doller:hover{
+    background-image: linear-gradient(to left, #09b7d0,#7246ac);
+}
+
+.course-title,.research-title,.about-title{
+    text-align: center;
+    margin:25px 0;
+    color:#7246ac;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-shadow: 4px 5px 6px grey;
+    /* border:1px solid black; */
+}
+.course-box{
+    width:300px;
+    margin:10px;
+}
+.course-box:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.course-box:hover{
+    box-shadow: 3px 4px 5px gray;
+}
+.star-color{
+    font-size:15px;
+    color:gold;
+    margin:0px 5px 15px 0px;
+}
+.course-data{
+    margin-top:15px;
+    font-size:13px;
+    text-align: justify;
+}
+.span-hour{
+    font-size:13px;
+    margin-right: 10px;
+}
+.span-month{
+    font-size:13px;
+    margin-left:15px;
+    margin-right: 15px;
+}
+.span-module{
+    font-size:13px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+.icon-size{
+    font-size: 10px;
+}
+.trend-course,.free-trial,.certi-box{
+    width:250px;
+    height:205px;
+    /* border:1px solid black; */
+    padding:15px;
+    background-color: gold;
+    opacity: 0.6;
+    box-shadow: 5px 6px 6px grey;
+}
+.trend-course:hover,.free-trial:hover,.certi-box:hover{
+    width:260px;
+    height:209px;
+    opacity: 1;
+    cursor: pointer;
+}
+.icon-box{
+    width:50px;
+    height:50px;
+    /* border:1px solid black; */
+    border-radius:50px;
+    background-image: linear-gradient(to top,#7246ac, #09b7d0);
+    margin:20px;
+    margin-left: 85px;
+}
+.gra-size{
+    color:white;
+    margin:15px;
+}
+.tran-course{
+    color:#7246ac;
+    margin-left: 40px;
+}
+.tran-data{
+    font-size:12px;
+    text-align: center;
+    color:white;
+}
+.certi-row{
+    display: flex;
+    justify-content: space-around;
+}
+.free-size{
+    font-size:20px;
+    color:white;
+    margin:16px;
+}
+.free-title{
+    color:#7246ac;
+    margin-left: 65px;
+}
+.certi-size{
+    font-size:20px;
+    color:white;
+    margin:15px;
+}
+.about-box{
+    width:1150px;
+    height:350px;
+    /* border:1px solid black; */
+    margin-top:50px;
+    /* background-color: #f3edef; */
+    background-color: white;
+    padding:10px;
+}
+.about-data{
+    /* border:1px solid black; */
+    margin-top:30px;
+    /* background-color: #f7f7f7; */
+}
+.about-head{
+    color:#7246ac;
+}
+.about-para{
+    font-size: 15px;
+    text-align: justify;
+}
+.learn-btn{
+    width:120px;
+    height:30px;
+    background-image: linear-gradient(to bottom,#7246ac, #09b7d0);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    line-height: 15px;
+}
+.learn-btn:hover{
+    background-image: linear-gradient(to right, #09b7d0,#7246ac);
+}
+.about-img{
+    width:550px;
+    height:250px;
+    /* border:1px solid black; */
+}
+.footer{
+    background-image: linear-gradient(to bottom right, #09b7d0,#7246ac);
+}
+.tec-list{
+    margin-top:35px;
+    color:#7246ac;
+    margin-left: 65px;
+}
+.tec-list-gp{
+    list-style-type: none;
+    margin-left:30px;
+}
+.quick-list,.contact-list{
+    list-style-type: none;
+}
+.tec-list-gp a,.quick-list a{
+    text-decoration: none;
+    color:#7246ac;
+}
+.quick{
+    color:#7246ac;
+    margin-top:35px;
+    margin-left: 10px;
+}
+.contact-info{
+    color:#09b7d0;
+    margin-top:35px;
+    margin-left: 30px;
+}
+.contact-list a{
+    text-decoration: none;
+    color:#09b7d0;
+}
+
+@media (min-width: 1400px) and (max-width:1500px){
+    .admis-box{
+        margin-left:150px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .admis-box{
+        width:900px;
+    }
+    .admis-size{
+        width:400px;
+    } 
+    .about-box{
+        width:900px;
+    }
+    .about-data{
+        width:420px;
+    }
+    .about-img{
+        width:480px;
+        height:260px;
+    }
+    .quick-list{
+        margin-left: 65px;
+    }
+    .quick{
+        margin-left: 95px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+.mouse-color{
+    color: #7246ac;
+}
+.box-color{
+    background-image: linear-gradient(to top,#7246ac, #09b7d0);
+}
+.tec-color{
+    color: #7246ac;
+    letter-spacing: 5px;
+    text-shadow: 3px 4px 5px rgb(5, 5, 5);
+}
+.admis-box{
+    margin-top:60px;
+    width:650px;
+}
+.admis-title{
+    margin-top:40px !important;
+    text-align: left !important;
+}
+.admis-data{
+    font-size: 10px;
+}
+.admis-size{
+    width:280px;
+} 
+
+.trend-course,.free-trial,.certi-box{
+    width:200px;
+    height:205px;
+}
+.trend-course:hover,.free-trial:hover,.certi-box:hover{
+    width:202px;
+    height:210px;
+}
+.icon-box{
+    margin-left: 60px;
+}
+.tran-course{
+    font-size: 15px;
+    margin-left: 30px;
+}
+.tran-data{
+    font-size:10px;
+}
+.free-title{
+    margin-left: 44px;
+}
+.about-box{
+    width:650px;
+}
+.about-data{
+    width:300px;
+}
+.about-head{
+    margin-top:19px !important;
+    font-size:15px;
+}
+.about-para{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.about-img{
+    width:380px;
+    height:260px;
+}
+.learn-btn{
+    font-size:15px;
+}
+.quick-list{
+    margin-left: 65px;
+}
+.quick{
+    margin-left: 95px;
+}
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .mouse-color{
+        color: #7246ac;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:500px;
+        margin-left: 15px;
+    }
+    .admis-title{
+        margin-top:40px !important;
+        text-align: left !important;
+    }
+    .admis-data{
+        font-size: 9px;
+    }
+    .admis-size{
+        width:200px;
+    } 
+    .course-box{
+        width:510px;
+        margin:10px;
+        margin-left: 0px;
+    }
+    .span-hour{
+        font-size:20px;
+        margin-right: 30px;
+    }
+    .span-month{
+        font-size:20px;
+        margin-left:45px;
+        margin-right: 45px;
+    }
+    .span-module{
+        font-size:20px;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:510px;
+        height:205px;
+        margin:10px;
+        margin-left: 20px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:511px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 200px;
+    }
+    .tran-course{
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    .tran-data{
+        font-size:15px;
+    }
+    .free-title{
+        margin-left: 180px;
+    }
+    .about-box{
+        width:500px;
+    }
+    .about-data{
+        width:230px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .about-img{
+        width:250px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+    }
+    .tec-list{
+        margin-left:200px;
+    }
+    .tec-list-gp{
+        margin-left: 130px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 180px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 200px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 180px;
+    }
+    .contact-list a{
+        margin-left: 120px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 412px) and (max-width:429px) {
+    .logo-size{
+        width:30px;
+        height:15px;
+        margin-left: 30px;
+        margin-right:1px;
+    }
+    .logo-text{
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 4px rgb(5, 5, 5);
+    }
+    .mouse-btn{
+        /* border:1px solid black; */
+        margin-left:-400px;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+        width:250px;
+    }
+    .img-size{
+        height:450px;
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:370px;
+        height:250px;
+        margin-left: 15px;
+    }
+    .admis-title{
+        margin-top:30px !important;
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .admis-data{
+        font-size: 7px;
+        margin-top: -15px;
+    }
+    .admis-size{
+        width:150px;
+        height:200px;
+    } 
+    .course-box{
+        width:378px;
+        margin:10px;
+        margin-left: 0px;
+    }
+    .doller{
+        margin-left:170px;
+    }
+    .span-hour{
+        font-size:15px;
+        margin-right: 10px;
+    }
+    .span-month{
+        font-size:15px;
+        margin-left:35px;
+        margin-right: 35px;
+    }
+    .span-module{
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:350px;
+        height:205px;
+        margin:10px;
+        margin-left: 10px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:351px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 130px;
+    }
+    .tran-course{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    .tran-data{
+        font-size:13px;
+    }
+    .free-title{
+        margin-left: 115px;
+    }
+    .about-box{
+        width:400px;
+        height:500px;
+    }
+    .about-data{
+        width:400px;
+        margin-top:-10px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+        text-align: center;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .about-img{
+        width:365px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+    }
+    .tec-list{
+        margin-left:150px;
+    }
+    .tec-list-gp{
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 140px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 120px;
+    }
+    .contact-list a{
+        margin-left: 50px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 430px) and (max-width:470px) {
+    .logo-size{
+        width:30px;
+        height:15px;
+        margin-left: 30px;
+        margin-right:1px;
+    }
+    .logo-text{
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 4px rgb(5, 5, 5);
+    }
+    .mouse-btn{
+        /* border:1px solid black; */
+        margin-left:-400px;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+        width:250px;
+    }
+    .img-size{
+        height:450px;
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:370px;
+        height:250px;
+        margin-left: 25px;
+    }
+    .admis-title{
+        margin-top:30px !important;
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .admis-data{
+        font-size: 7px;
+        margin-top: -15px;
+    }
+    .admis-size{
+        width:150px;
+        height:200px;
+    } 
+    .course-box{
+        width:378px;
+        margin:10px;
+        margin-left: 13px;
+    }
+    .doller{
+        margin-left:170px;
+    }
+    .span-hour{
+        font-size:15px;
+        margin-right: 10px;
+    }
+    .span-month{
+        font-size:15px;
+        margin-left:35px;
+        margin-right: 35px;
+    }
+    .span-module{
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:350px;
+        height:205px;
+        margin:10px;
+        margin-left: 10px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:351px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 130px;
+    }
+    .tran-course{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    .tran-data{
+        font-size:13px;
+    }
+    .free-title{
+        margin-left: 115px;
+    }
+    .about-box{
+        width:400px;
+        height:500px;
+        margin-left: 5px;
+    }
+    .about-data{
+        width:400px;
+        margin-top:-10px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+        text-align: center;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .about-img{
+        width:365px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+    }
+    .tec-list{
+        margin-left:150px;
+    }
+    .tec-list-gp{
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 140px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 120px;
+    }
+    .contact-list a{
+        margin-left: 50px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 471px) and (max-width:499px) {
+    .logo-size{
+        width:30px;
+        height:15px;
+        margin-left: 30px;
+        margin-right:1px;
+    }
+    .logo-text{
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 4px rgb(5, 5, 5);
+    }
+    .mouse-btn{
+        /* border:1px solid black; */
+        margin-left:-400px;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+        width:250px;
+    }
+    .img-size{
+        height:450px;
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:400px;
+        height:250px;
+        margin-left: 35px;
+    }
+    .admis-title{
+        margin-top:30px !important;
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .admis-data{
+        font-size: 7px;
+        margin-top: -15px;
+    }
+    .admis-size{
+        width:150px;
+        height:200px;
+    } 
+    .course-box{
+        width:378px;
+        margin:10px;
+        margin-left: 33px;
+    }
+    .doller{
+        margin-left:170px;
+    }
+    .span-hour{
+        font-size:15px;
+        margin-right: 10px;
+    }
+    .span-month{
+        font-size:15px;
+        margin-left:35px;
+        margin-right: 35px;
+    }
+    .span-module{
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:350px;
+        height:205px;
+        margin:10px;
+        margin-left: 10px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:351px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 130px;
+    }
+    .tran-course{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    .tran-data{
+        font-size:13px;
+    }
+    .free-title{
+        margin-left: 115px;
+    }
+    .about-box{
+        width:400px;
+        height:500px;
+        margin-left: 17px;
+    }
+    .about-data{
+        width:400px;
+        margin-top:-10px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+        text-align: center;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .about-img{
+        width:365px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+    }
+    .tec-list{
+        margin-left:150px;
+    }
+    .tec-list-gp{
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 140px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 120px;
+    }
+    .contact-list a{
+        margin-left: 50px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:539px) {
+    .logo-size{
+        width:30px;
+        height:15px;
+        margin-left: 30px;
+        margin-right:1px;
+    }
+    .logo-text{
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 4px rgb(5, 5, 5);
+    }
+    .mouse-btn{
+        /* border:1px solid black; */
+        margin-left:-400px;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+        width:250px;
+    }
+    .img-size{
+        height:450px;
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:400px;
+        height:250px;
+        margin-left: 50px;
+    }
+    .admis-title{
+        margin-top:30px !important;
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .admis-data{
+        font-size: 7px;
+        margin-top: -15px;
+    }
+    .admis-size{
+        width:150px;
+        height:200px;
+    } 
+    .course-box{
+        width:378px;
+        margin:10px;
+        margin-left: 55px;
+    }
+    .doller{
+        margin-left:170px;
+    }
+    .span-hour{
+        font-size:15px;
+        margin-right: 10px;
+    }
+    .span-month{
+        font-size:15px;
+        margin-left:35px;
+        margin-right: 35px;
+    }
+    .span-module{
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:350px;
+        height:205px;
+        margin:10px;
+        margin-left: 10px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:351px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 130px;
+    }
+    .tran-course{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    .tran-data{
+        font-size:13px;
+    }
+    .free-title{
+        margin-left: 115px;
+    }
+    .about-box{
+        width:400px;
+        height:500px;
+        margin-left: 37px;
+    }
+    .about-data{
+        width:400px;
+        margin-top:-10px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+        text-align: center;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .about-img{
+        width:365px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+    }
+    .tec-list{
+        margin-left:150px;
+    }
+    .tec-list-gp{
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 140px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 120px;
+    }
+    .contact-list a{
+        margin-left: 50px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 540px) and (max-width:577px) {
+    .logo-size{
+        width:30px;
+        height:15px;
+        margin-left: 30px;
+        margin-right:1px;
+    }
+    .logo-text{
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 4px rgb(5, 5, 5);
+    }
+    .mouse-btn{
+        /* border:1px solid black; */
+        margin-left:-400px;
+    }
+    .box-color{
+        background-image: linear-gradient(to top,#7246ac, #09b7d0);
+        width:250px;
+    }
+    .img-size{
+        height:450px;
+    }
+    .tec-color{
+        color: #7246ac;
+        letter-spacing: 5px;
+        text-shadow: 3px 4px 5px rgb(5, 5, 5);
+    }
+    .admis-box{
+        margin-top:60px;
+        width:400px;
+        height:250px;
+        margin-left: 70px;
+    }
+    .admis-title{
+        margin-top:30px !important;
+        text-align: left !important;
+        font-size: 15px;
+    }
+    .admis-data{
+        font-size: 7px;
+        margin-top: -15px;
+    }
+    .admis-size{
+        width:150px;
+        height:200px;
+    } 
+    .course-box{
+        width:378px;
+        margin:10px;
+        margin-left: 75px;
+    }
+    .doller{
+        margin-left:170px;
+    }
+    .span-hour{
+        font-size:15px;
+        margin-right: 10px;
+    }
+    .span-month{
+        font-size:15px;
+        margin-left:35px;
+        margin-right: 35px;
+    }
+    .span-module{
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    .icon-size{
+        font-size: 15px;
+    }
+    .trend-course,.free-trial,.certi-box{
+        width:350px;
+        height:205px;
+        margin:10px;
+        margin-left: 10px;
+    }
+    .trend-course:hover,.free-trial:hover,.certi-box:hover{
+        width:351px;
+        height:206px;
+    }
+    .icon-box{
+        margin-left: 130px;
+    }
+    .tran-course{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    .tran-data{
+        font-size:13px;
+    }
+    .free-title{
+        margin-left: 115px;
+    }
+    .about-box{
+        width:400px;
+        height:500px;
+        margin-left: 67px;
+    }
+    .about-data{
+        width:400px;
+        margin-top:-10px;
+    }
+    .about-head{
+        margin-top:0px !important;
+        font-size:15px;
+        text-align: center;
+    }
+    .about-para{
+        font-size: 10px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .about-img{
+        width:365px;
+        height:270px;
+    }
+    .learn-btn{
+        font-size:15px;
+        margin-left: 115px;
+        margin-bottom: 10px;
+    }
+    .tec-list{
+        margin-left:150px;
+    }
+    .tec-list-gp{
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    .quick-list{
+        margin-left: 120px;
+        margin-bottom: 5px;
+    }
+    .quick{
+        margin-left: 140px;
+    }
+    .contact-info{
+        color:#7246ac;
+        margin-left: 120px;
+    }
+    .contact-list a{
+        margin-left: 50px;
+        color:#7246ac !important;
+        margin-bottom: 5px;
+    }
+}
